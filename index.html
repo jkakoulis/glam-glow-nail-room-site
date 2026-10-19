@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="el">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#D2691E">
+<meta name="description" content="Η διαδικτυακή πρόσκληση του Glam & Glow Event από το Nail Room Kozani.">
+<title>Glam & Glow Event | Nail Room Kozani</title>
+<style>
+:root{--copper:#D2691E;--deep:#71340f;--ink:#2a201b;--cream:#fff9f0;--paper:#fffdf8;--rose:#efd8ca;--gold:#e7b77b}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Georgia,"Times New Roman",serif}
+button,a{font:inherit}button{cursor:pointer}.topline{height:5px;background:var(--copper)}
+header{padding:22px 18px;text-align:center;letter-spacing:.22em;font:600 12px Arial,sans-serif;color:var(--deep)}
+.brand{font:clamp(28px,6vw,44px) Georgia,serif;letter-spacing:.13em;margin:5px 0}.brand span{display:block;font:12px Arial,sans-serif;letter-spacing:.55em;margin-top:8px}
+main{max-width:900px;margin:auto;padding:0 18px 50px}
+.hero{position:relative;overflow:hidden;border:1px solid #d8b39a;border-radius:220px 220px 22px 22px;background:radial-gradient(ellipse at 50% 20%,#fff 0,#fff9f0 48%,#f3dfce 100%);min-height:600px;padding:58px 22px 38px;text-align:center;box-shadow:0 18px 55px #71340f12}
+.hero:before,.hero:after{content:"✦";position:absolute;color:var(--copper);font-size:38px;opacity:.7}.hero:before{top:105px;left:8%}.hero:after{top:190px;right:8%}
+.ribbon{font-size:42px;color:var(--copper);line-height:1}.eyebrow{font:11px Arial,sans-serif;letter-spacing:.32em;color:var(--deep);margin:18px 0}
+h1{font-size:clamp(42px,9vw,82px);line-height:.98;letter-spacing:-.04em;color:var(--copper);font-weight:400;margin:15px auto 10px}
+.script{font-style:italic;font-size:clamp(28px,6vw,48px);color:var(--deep);margin:0 0 20px}
+.lead{font-size:clamp(17px,3vw,21px);line-height:1.6;max-width:520px;margin:18px auto}
+.open-hint{font:12px Arial,sans-serif;letter-spacing:.12em;color:#7e5b46;margin:25px 0 12px}
+.envelope-wrap{margin:20px auto 0;max-width:440px;perspective:1000px}
+.envelope{position:relative;height:220px;border:1px solid #c77b43;border-radius:8px;background:linear-gradient(145deg,#f3c89f,#d8894d 55%,#c76b28);box-shadow:0 14px 28px #71340f26;transition:transform .4s}
+.envelope:before{content:"";position:absolute;inset:0;background:linear-gradient(32deg,transparent 49%,#f8d9b9 50%,transparent 51%),linear-gradient(-32deg,transparent 49%,#f9d9b8 50%,transparent 51%);opacity:.9}
+.flap{position:absolute;left:0;right:0;top:0;height:58%;background:linear-gradient(150deg,#f9d8b8,#d78345);clip-path:polygon(0 0,100% 0,50% 100%);transform-origin:top;transition:transform .9s;z-index:3;filter:drop-shadow(0 3px 2px #71340f22)}
+.seal{position:absolute;z-index:4;left:50%;top:47%;transform:translate(-50%,-50%);height:48px;width:48px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#f9d5a5,#a94e18);border:2px solid #ffe0b9;color:white;display:grid;place-items:center;font-size:25px;box-shadow:0 3px 8px #71340f40;transition:opacity .3s}
+.invitation{position:absolute;z-index:2;left:8%;right:8%;top:8%;height:85%;padding:24px 14px;background:var(--paper);border:1px solid #d8a47d;display:flex;flex-direction:column;justify-content:center;align-items:center;transition:transform .9s;box-shadow:0 2px 9px #71340f18}
+.invitation strong{font-size:23px;color:var(--copper);font-weight:400}.invitation small{font:10px Arial,sans-serif;letter-spacing:.16em;margin-bottom:10px}
+.envelope.open .flap{transform:rotateX(180deg);z-index:1}.envelope.open .invitation{transform:translateY(-105px);z-index:5;height:230px}.envelope.open .seal{opacity:0}.envelope.open{margin-bottom:110px}
+.primary,.secondary{border:0;border-radius:999px;padding:15px 24px;letter-spacing:.05em;transition:transform .2s,box-shadow .2s}
+.primary{background:var(--copper);color:white;box-shadow:0 7px 18px #d2691e42}.secondary{background:transparent;border:1px solid var(--copper);color:var(--deep)}
+.primary:hover,.secondary:hover{transform:translateY(-2px);box-shadow:0 8px 18px #71340f20}
+.hidden{display:none!important}
+.details{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:36px 0 0}
+.detail{padding:22px 12px;text-align:center;border-top:1px solid #d8b39a;border-bottom:1px solid #d8b39a}.detail .ico{font-size:25px;color:var(--copper)}.detail strong{display:block;font-weight:400;font-size:19px;margin:10px 0 6px}.detail span{font:10px Arial,sans-serif;letter-spacing:.18em;color:#87644e}
+section{padding:54px 0 10px;text-align:center}.section-label{font:11px Arial,sans-serif;letter-spacing:.28em;color:var(--copper)}h2{font-size:clamp(29px,5vw,43px);font-weight:400;margin:12px 0 16px}.section-copy{max-width:610px;line-height:1.8;margin:0 auto 25px;color:#665044}
+.perks{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:25px}.perk{padding:24px 15px;border:1px solid #ead2c0;border-radius:15px;background:#fffdf9}.perk b{display:block;color:var(--copper);font-size:25px;margin-bottom:10px}.perk p{font-size:14px;line-height:1.6;margin:0}
+.rsvp{background:#f4e4d6;border-radius:22px;padding:30px 18px;margin-top:25px}.rsvp p{line-height:1.7}.rsvp-actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+footer{text-align:center;padding:32px 12px 15px;font:12px Arial,sans-serif;letter-spacing:.08em;color:#85634f}footer a{color:var(--deep);text-decoration:none}
+.note{font:12px Arial,sans-serif;color:#87644e;line-height:1.6;margin-top:20px}
+.countdown{margin:28px auto 0;max-width:520px;padding:22px 16px 18px;border:1px solid #ead2c0;border-radius:18px;background:linear-gradient(180deg,#fffdf9 0%,#f8efe6 100%)}
+.countdown-label{font:11px Arial,sans-serif;letter-spacing:.28em;color:var(--copper);margin-bottom:14px}
+.countdown-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.countdown-unit{padding:12px 6px;border-radius:12px;background:rgba(255,253,248,.85);border:1px solid #efd8ca}
+.countdown-unit b{display:block;font:clamp(26px,5vw,36px)/1 Georgia,serif;color:var(--copper);font-weight:400;font-variant-numeric:tabular-nums}
+.countdown-unit span{display:block;margin-top:8px;font:9px Arial,sans-serif;letter-spacing:.16em;color:#87644e}
+.countdown-done{display:none;font-size:18px;color:var(--deep);font-style:italic;padding:8px 0}
+.countdown.is-done .countdown-grid{display:none}.countdown.is-done .countdown-done{display:block}
+@media(max-width:600px){.hero{min-height:570px;padding:45px 14px 28px;border-radius:150px 150px 18px 18px}.details{grid-template-columns:1fr;gap:0}.detail{border-bottom:0}.detail:last-child{border-bottom:1px solid #d8b39a}.perks{grid-template-columns:1fr}.envelope{height:190px}.envelope.open .invitation{transform:translateY(-95px)}.envelope.open{margin-bottom:100px}.countdown-grid{gap:6px}.countdown-unit{padding:10px 4px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="topline"></div>
+<header>
+  <div class="ribbon">♡</div>
+  <div class="brand">NAIL ROOM<span>KOZANI</span></div>
+</header>
+<main>
+  <div class="hero">
+    <div class="eyebrow">ΜΙΑ ΞΕΧΩΡΙΣΤΗ ΠΡΟΣΚΛΗΣΗ</div>
+    <h1>Glam<br>&amp; Glow</h1>
+    <p class="script">Event</p>
+    <p class="lead">Λάμψη, ομορφιά και όμορφες στιγμές…<br>Θα χαρούμε να σε έχουμε κοντά μας!</p>
+    <div class="open-hint">ΠΑΤΗΣΕ ΤΟΝ ΦΑΚΕΛΟ ΓΙΑ ΝΑ ΑΝΟΙΞΕΙ Η ΠΡΟΣΚΛΗΣΗ</div>
+    <div class="envelope-wrap">
+      <div class="envelope" id="envelope" role="button" tabindex="0" aria-label="Άνοιγμα πρόσκλησης" aria-expanded="false">
+        <div class="invitation">
+          <small>ΜΕ ΑΓΑΠΗ, NAIL ROOM KOZANI</small>
+          <strong>Είσαι προσκεκλημένη!</strong>
+          <p style="font-size:13px;line-height:1.5;margin:10px 0">Ετοιμάσου για μια ξεχωριστή εμπειρία γεμάτη glam διάθεση και λάμψη.</p>
+          <b style="font-size:12px;color:var(--deep)">Σε περιμένουμε ✦</b>
+        </div>
+        <div class="flap"></div><div class="seal">♡</div>
+      </div>
+    </div>
+    <button class="primary" id="openBtn" style="margin-top:18px">♡ Άνοιξε την πρόσκληση</button>
+    <div class="details" id="event-details">
+      <div class="detail"><div class="ico">♧</div><strong>20 Νοεμβρίου</strong><span>ΗΜΕΡΟΜΗΝΙΑ</span></div>
+      <div class="detail"><div class="ico">◷</div><strong>18:00</strong><span>ΩΡΑ</span></div>
+      <div class="detail"><div class="ico">⌖</div><strong>Βαλταδώρων 2, Κοζάνη</strong><span>ΤΟΠΟΘΕΣΙΑ</span></div>
+    </div>
+    <div class="countdown" id="countdown" aria-live="polite">
+      <div class="countdown-label">ΑΝΤΙΣΤΡΟΦΗ ΜΕΤΡΗΣΗ</div>
+      <div class="countdown-grid">
+        <div class="countdown-unit"><b id="cd-days">00</b><span>ΗΜΕΡΕΣ</span></div>
+        <div class="countdown-unit"><b id="cd-hours">00</b><span>ΩΡΕΣ</span></div>
+        <div class="countdown-unit"><b id="cd-mins">00</b><span>ΛΕΠΤΑ</span></div>
+        <div class="countdown-unit"><b id="cd-secs">00</b><span>ΔΕΥΤ.</span></div>
+      </div>
+      <div class="countdown-done">Το event ξεκίνησε — καλώς ήρθες! ✦</div>
+    </div>
+  </div>
+
+  <section>
+    <div class="section-label">A LITTLE EXTRA SPARKLE</div>
+    <h2>Μια πρόσκληση για να λάμψεις</h2>
+    <p class="section-copy">Το Nail Room Kozani σε προσκαλεί σε μια ξεχωριστή συνάντηση με διάθεση γιορτής, έμπνευση και πολλή λάμψη. Κράτησε την ημερομηνία και έλα να μοιραστούμε μια όμορφη εμπειρία!</p>
+    <div class="perks">
+      <div class="perk"><b>✧</b><p><strong>Glam διάθεση</strong><br>Μια όμορφη αφορμή για να βγεις, να χαλαρώσεις και να λάμψεις.</p></div>
+      <div class="perk"><b>♡</b><p><strong>Beauty moments</strong><br>Έμπνευση για τα νύχια και το προσωπικό σου στιλ.</p></div>
+      <div class="perk"><b>✦</b><p><strong>Όμορφες στιγμές</strong><br>Έλα με την παρέα σου και μοιράσου τη χαρά της ημέρας.</p></div>
+    </div>
+    <p class="note">Το πρόγραμμα, τυχόν προσφορές και οι λεπτομέρειες συμμετοχής θα προστεθούν μόλις επιβεβαιωθούν.</p>
+  </section>
+
+  <section>
+    <div class="section-label">SAVE THE DATE</div>
+    <h2>Σε περιμένουμε!</h2>
+    <div class="rsvp">
+      <p>Θέλεις να μάθεις περισσότερα ή να επιβεβαιώσεις τη συμμετοχή σου;<br>Στείλε μας μήνυμα στο Instagram.</p>
+      <div class="rsvp-actions">
+        <a class="primary" href="https://www.instagram.com/nail.room.kozani/" target="_blank" rel="noopener">Μήνυμα στο Instagram ↗</a>
+        <a class="secondary" href="https://www.google.com/maps/search/?api=1&query=Valtadoron+2+Kozani+Greece" target="_blank" rel="noopener">Οδηγίες στον χάρτη</a>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>
+  <div style="font-size:22px;color:var(--copper);margin-bottom:10px">NAIL ROOM KOZANI</div>
+  Βαλταδώρων 2 · Κοζάνη<br><br>
+  <a href="https://www.instagram.com/nail.room.kozani/" target="_blank" rel="noopener">@nail.room.kozani</a>
+  <p style="letter-spacing:0;margin-top:18px">Your nails. Your moment. ♡</p>
+</footer>
+<script>
+const envelope=document.getElementById('envelope');
+const btn=document.getElementById('openBtn');
+function toggleEnvelope(){
+  const opened=envelope.classList.toggle('open');
+  envelope.setAttribute('aria-expanded',String(opened));
+  btn.textContent=opened?'♡ Κλείσε την πρόσκληση':'♡ Άνοιξε την πρόσκληση';
+  if(opened) setTimeout(()=>document.getElementById('event-details').scrollIntoView({behavior:'smooth',block:'nearest'}),250);
+}
+btn.addEventListener('click',toggleEnvelope);
+envelope.addEventListener('click',toggleEnvelope);
+envelope.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();toggleEnvelope();}});
+
+const EVENT_AT=new Date('2026-11-20T18:00:00+02:00');
+const pad=n=>String(n).padStart(2,'0');
+const cdEl=document.getElementById('countdown');
+const cdDays=document.getElementById('cd-days');
+const cdHours=document.getElementById('cd-hours');
+const cdMins=document.getElementById('cd-mins');
+const cdSecs=document.getElementById('cd-secs');
+function tickCountdown(){
+  const diff=EVENT_AT-Date.now();
+  if(diff<=0){cdEl.classList.add('is-done');return;}
+  const s=Math.floor(diff/1000);
+  cdDays.textContent=pad(Math.floor(s/86400));
+  cdHours.textContent=pad(Math.floor((s%86400)/3600));
+  cdMins.textContent=pad(Math.floor((s%3600)/60));
+  cdSecs.textContent=pad(s%60);
+}
+tickCountdown();
+setInterval(tickCountdown,1000);
+</script>
+</body>
+</html>
